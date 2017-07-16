@@ -1,0 +1,55 @@
+{{ if isset .Site.Params "locations" }}
+{{ if .Site.Params.locations.enable }}
+{{ if gt (len .Site.Data.locations) 0 }}
+<section class="bar background-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.locations.title }}</h2>
+                </div>
+            </div>
+        </div>
+        {{ $facebook := .Site.Params.facebook }}
+        {{ $instagram := .Site.Params.instagram }}
+        {{ $line_link := .Site.Params.line_link }}
+        {{ $line := .Site.Params.line }}
+        {{ range $index, $element := sort .Site.Data.locations "weight" }}
+        <div class="row">
+          <div class="col-md-4">
+            <div class="heading">
+              <h4>{{ $element.title }}</h4>
+            </div>
+            <div class="lead">
+              {{ $element.description | safeHTML }}
+            </div>
+            <div class="center-block">
+                <ul class="list-style-none">
+                    <li>
+                        <span><a href="{{ $facebook }}"><img src="/img/FB-f-Logo__blue_29.png"></a></span>
+                        <span>&nbsp;</span>
+                        <span><a href="{{ $instagram }}"><img src="/img/glyph-logo_May2016_29.png"></a></span>
+                        <span>&nbsp;</span>
+                        <span><a href="{{ $line_link }}"><img src="/img/LINE_Icon_29.png"></a></span>
+                        <span>{{ $line }}</span>
+                      </li>
+                  </ul>
+            </div>
+          </div>
+            <div class="col-md-8">
+              <iframe
+                width="100%"
+                height="450"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAVvNmV9Nsqg5lVPwzPMTkJBYnZLllu_do
+                  &q=GISMO+Coffee+and+Roaster+Bangkok+Thailand" allowfullscreen>
+              </iframe>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
+{{ end }}

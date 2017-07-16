@@ -1,0 +1,24 @@
+{
+  "id": "whiskey_and_spirit",
+  "title": "Whiskey & Spirit",
+  "category": "drink",
+  "weight": 16,
+  "layout": "table",
+  "img":"",
+  "img_desc":"",
+  "img_layout":"",
+  "header": [],
+  "section": 6,
+  "data": [
+    ["Monkey Shoulder","340"],
+    ["Wild Turkey","240"],
+    ["Tullamore Irish","240"],
+    ["Asaki Japanese","300"],
+    ["Plum Sake","200"],
+    ["Ultimate Vodka","300"],
+    ["Stolichnaya","220"],
+    ["Brokers Gin","220"],
+    ["Bull Dog Gin","300"],
+    ["Hendrick's Gin","350"]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cold_pressed_juice_and_fresh_juice_of_the_day",
+  "title": "Cold Pressed Juice & Fresh Juice of the Day",
+  "category": "drink",
+  "weight": 11,
+  "layout": "table",
+  "img":"/img/menus/juice.JPG",
+  "img_desc":"",
+  "img_layout":"left",
+  "header": [],
+  "section": 6,
+  "data": [
+    ["Before Sunset","120"],
+    ["Purple Retreat","120"],
+    ["Veggie Detox","120"],
+    ["Orange Juice","110"],
+    ["Lime Juice","110"],
+    ["Carrot Juice","110"],
+    ["Apple Juice","110"],
+    ["Lemonade Honey","120"]
+  ]
+}

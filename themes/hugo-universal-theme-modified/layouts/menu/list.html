@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div id="all">
+        <header>
+        {{ partial "nav.html" . }}
+        </header>
+        {{ partial "breadcrumbs.html" . }}
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                      <div class="lead"><p>{{ .Content }}</p></div>
+                  </div>
+                  <div class="col-xs-6 col-md-6 text-center">
+                    <div class="image-link-container">
+                        <img src="/img/food.JPG" alt="" class="image-link">
+                        <div class="middle">
+                            <a href="food" class="text">Food</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-6 col-md-6 text-center">
+                    <div class="image-link-container">
+                        <img src="/img/drink.JPG" alt="" class="image-link">
+                        <div class="middle">
+                            <a href="drink" class="text">Drink</a>
+                        </div>
+                    </div>
+                  </div>
+                    <!-- <div class="col-md-12">
+                        <div>
+                          {{ range sort .Site.Data.menus "weight" }}
+                            {{ .id }}
+                          {{ end }}
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

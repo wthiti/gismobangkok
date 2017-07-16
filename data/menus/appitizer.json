@@ -1,0 +1,80 @@
+{
+  "id": "appitizer",
+  "title": "Appitizer",
+  "category": "food",
+  "weight": 2,
+  "data": [
+    {
+      "name": "BBQ Chicken Thigh",
+      "description": "",
+      "price": "150",
+      "img": "/img/menus/bbq_chicken_thigh.JPG"
+    },
+    {
+      "name": "Shrimp Campus",
+      "description": "",
+      "price": "290",
+      "img": "/img/menus/shrimp_campus.JPG"
+    },
+    {
+      "name": "GISMO Rocket Salad",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/gismo_rocket_salad.JPG"
+    },
+    {
+      "name": "Parma Ham & Melon",
+      "description": "",
+      "price": "450",
+      "img": "/img/menus/parma_ham_and_melon.JPG"
+    },
+    {
+      "name": "Tuna Salad",
+      "description": "",
+      "price": "260",
+      "img": "/img/menus/tuna_salad.JPG"
+    },
+    {
+      "name": "Tuna Eggplant Salad",
+      "description": "",
+      "price": "260",
+      "img": "/img/menus/tuna_eggplant_salad.JPG"
+    },
+    {
+      "name": "Caesar Salad",
+      "description": "",
+      "price": "300",
+      "img": "/img/menus/caesar_salad.JPG"
+    },
+    {
+      "name": "Japanese Pumpkin Salad",
+      "description": "",
+      "price": "180",
+      "img": "/img/menus/japanese_pumpkin_salad.JPG"
+    },
+    {
+      "name": "Beetroot Salad",
+      "description": "",
+      "price": "190",
+      "img": "/img/menus/beetroot_salad.JPG"
+    },
+    {
+      "name": "Baby Carrot Salad",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/baby_carrot_salad.JPG"
+    },
+    {
+      "name": "Tomato & Burrata Salad",
+      "description": "",
+      "price": "240",
+      "img": "/img/menus/tomato_and_burrata_salad.JPG"
+    },
+    {
+      "name": "Cauliflower Salad",
+      "description": "",
+      "price": "160",
+      "img": "/img/menus/cauliflower_salad.JPG"
+    }
+  ]
+}

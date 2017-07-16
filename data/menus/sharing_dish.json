@@ -1,0 +1,38 @@
+{
+  "id": "sharing_dish",
+  "title": "Sharing Dish",
+  "category": "food",
+  "weight": 7,
+  "data": [
+    {
+      "name": "USA Prime Ribeye (250g.)",
+      "description": "",
+      "price": "1,900",
+      "img": "/img/menus/usa_prime_ribeye.JPG"
+    },
+    {
+      "name": "Wagyu Sirloin",
+      "description": "",
+      "price": "1,600",
+      "img": "/img/menus/wagyu_sirloin.JPG"
+    },
+    {
+      "name": "Free - Range Baby Chicken",
+      "description": "",
+      "price": "540",
+      "img": "/img/menus/free_range_baby_chicken.JPG"
+    },
+    {
+      "name": "Smoked Pork Knuckle",
+      "description": "",
+      "price": "590",
+      "img": "/img/menus/smoked_pork_knuckle.JPG"
+    },
+    {
+      "name": "BBQ Cheese Pork Ribs",
+      "description": "",
+      "price": "590",
+      "img": "/img/menus/bbq_cheese_pork_ribs.JPG"
+    }
+  ]
+}

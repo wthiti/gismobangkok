@@ -1,0 +1,9 @@
+<div class="navbar-collapse collapse" id="menu_navigation">
+  <ul class="nav navbar-nav">
+    {{ range (.Data.Pages.ByParam "weight") }}
+      <li class="dropdown">
+        <a href="{{ .id }}">{{ .title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</div>

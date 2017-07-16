@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div id="all">
+        <header>
+        {{ partial "nav.html" . }}
+        </header>
+        {{ partial "breadcrumbs.html" . }}
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                          {{ .Content }}
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div>
+                        {{ $category := .Params.category }}
+                        {{ range sort .Site.Data.menus "weight" }}
+                          {{ if eq .category $category }}
+                              <div class="col-xs-12 col-md-12 text-center heading">
+                                <h4>{{ .title }}</h4>
+                              </div>
+                            {{ if not (eq .layout "table") }}
+                              {{ range .data }}
+                                <div class="col-xs-6 col-md-3 text-center">
+                                  <figure class="label inside bottom fade" data-label="{{ .name }} ({{ .price }}.-)">
+                                      <img alt="{{ .name }}" src="{{ .img }}" class="img-responsive">
+                                  </figure>
+                                </div>
+                              {{ end }}
+                            {{ else }}
+                              {{ $section := .section }}
+                              {{ if eq .img_layout "left" }}
+                                <div class="col-xs-12 col-md-3 text-center">
+                                  <figure class="label inside bottom fade" data-label="{{ .img_desc }}">
+                                      <img alt="{{ .img_desc }}" src="{{ .img }}" class="img-responsive">
+                                  </figure>
+                                </div>
+                                <div class="col-xs-12 col-md-9">
+                                  <table class="table">
+                                    <tr>
+                                      {{ range $header := .header }}
+                                        <th class="col-xs-{{$section}} col-md-{{$section}}">{{ $header }}</th>
+                                      {{ end }}
+                                    </tr>
+                                    {{ range $row := .data}}
+                                      <tr>
+                                        {{ range $element := $row}}
+                                          <td class="col-xs-{{$section}} col-md-{{$section}}">{{ $element | safeHTML }}</td>
+                                        {{ end }}
+                                      </tr>
+                                    {{ end }}
+                                  </table>
+                                </div>
+                              {{ else if eq .img_layout "right" }}
+                                <div class="col-xs-12 col-md-9">
+                                  <table class="table">
+                                    <tr>
+                                      {{ range $header := .header }}
+                                        <th class="col-xs-{{$section}} col-md-{{$section}}">{{ $header }}</th>
+                                      {{ end }}
+                                    </tr>
+                                    {{ range $row := .data}}
+                                      <tr>
+                                        {{ range $element := $row}}
+                                          <td class="col-xs-{{$section}} col-md-{{$section}}">{{ $element | safeHTML }}</td>
+                                        {{ end }}
+                                      </tr>
+                                    {{ end }}
+                                  </table>
+                                </div>
+                                <div class="col-xs-12 col-md-3 text-center">
+                                  <figure class="label inside bottom fade" data-label="{{ .img_desc }}">
+                                      <img alt="{{ .img_desc }}" src="{{ .img }}" class="img-responsive">
+                                  </figure>
+                                </div>
+                              {{ else }}
+                                <div class="col-xs-12 col-md-12">
+                                  <table class="table">
+                                    <tr>
+                                      {{ range $header := .header }}
+                                        <th class="col-md-{{$section}}">{{ $header }}</th>
+                                      {{ end }}
+                                    </tr>
+                                    {{ range $row := .data}}
+                                      <tr>
+                                        {{ range $element := $row}}
+                                          <td class="col-md-{{$section}}">{{ $element | safeHTML }}</td>
+                                        {{ end }}
+                                      </tr>
+                                    {{ end }}
+                                  </table>
+                                </div>
+                              {{ end }}
+                            {{ end }}
+                          {{ end }}
+                        {{ end }}
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

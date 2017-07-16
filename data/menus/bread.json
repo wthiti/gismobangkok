@@ -1,0 +1,17 @@
+{
+  "id": "bread",
+  "title": "Bread",
+  "category": "food",
+  "weight": 4,
+  "layout": "table",
+  "img":"/img/menus/bread.JPG",
+  "img_desc":"",
+  "img_layout":"left",
+  "header": [],
+  "section": 6,
+  "data": [
+    ["French Baguette","140"],
+    ["Croissant","95"],
+    ["Garlic Bread (3 Pieces)","95"]
+  ]
+}

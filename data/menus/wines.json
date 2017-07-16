@@ -1,0 +1,27 @@
+{
+  "id": "wines",
+  "title": "Wines",
+  "category": "drink",
+  "weight": 17,
+  "layout": "table",
+  "img": "",
+  "img_desc": "",
+  "img_layout": "",
+  "header": ["SPARKLING WINE / ROSE", "PRICE BTL. / GLASS"],
+  "section": 6,
+  "data": [
+    ["NUA Brut Vino", "1,350"],
+    ["Moscato Batasiolo Rose", "1,850"],
+    ["<b>WHITE WINE</b>", ""],
+    ["Santa Helena Sauvignon Blanc", "1,300 / 330"],
+    ["Innovate Chardonnay", "1,550"],
+    ["Trocard Bordeaux", "2,250"],
+    ["<b>RED WINE</b>", ""],
+    ["Santa Helena Carbenet Sauvignon", "1,300 / 330"],
+    ["Innovate Shiraz Cabernet", "1,550"],
+    ["Terra Noble Carmenere", "1,700"],
+    ["Pinot Noir Little Yerring", "1,800"],
+    ["Cotes du Rhone", "1,800"],
+    ["Trocard Bordeaux", "2,250"]
+  ]
+}

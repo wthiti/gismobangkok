@@ -1,0 +1,50 @@
+{
+  "id": "smoothies_and_frappe",
+  "title": "Smoothies & Frappe",
+  "category": "drink",
+  "weight": 12,
+  "data": [
+    {
+      "name": "Mixed Berries Smoothies",
+      "description": "",
+      "price": "160",
+      "img": "/img/menus/mixed_berries_smoothies.JPG"
+    },
+    {
+      "name": "Mango Berries",
+      "description": "",
+      "price": "150",
+      "img": "/img/menus/mango_berries.JPG"
+    },
+    {
+      "name": "Lychee Mint",
+      "description": "",
+      "price": "150",
+      "img": "/img/menus/lychee_mint.JPG"
+    },
+    {
+      "name": "Chocolate Caramel & Cornflake",
+      "description": "",
+      "price": "150",
+      "img": "/img/menus/chocolate_caramel_and_cornflake.JPG"
+    },
+    {
+      "name": "Orange Frappe",
+      "description": "",
+      "price": "120",
+      "img": "/img/menus/orange_frappe.JPG"
+    },
+    {
+      "name": "Lime Frappe",
+      "description": "",
+      "price": "120",
+      "img": "/img/menus/lime_frappe.JPG"
+    },
+    {
+      "name": "Watermelon Frappe",
+      "description": "",
+      "price": "120",
+      "img": "/img/menus/watermelon_frappe.JPG"
+    }
+  ]
+}

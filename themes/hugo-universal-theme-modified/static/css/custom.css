@@ -1,0 +1,62 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+img.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-white{
+    background-color: #fff;
+}
+.image-link-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image-link{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image-link-container .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.image-link-container:hover .image-link {
+  opacity: 0.3;
+}
+
+.image-link-container:hover .middle {
+  opacity: 1;
+}
+
+.image-link-container .middle .text {
+  background-color: rgb(154,222,205);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#footer-image {
+  background: url('../img/texture-l.png') center center repeat;
+  padding: 20px 0;
+}

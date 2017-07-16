@@ -1,0 +1,32 @@
+{
+  "id": "soup",
+  "title": "Soup",
+  "category": "food",
+  "weight": 3,
+  "data": [
+    {
+      "name": "Mushroom Soup",
+      "description": "",
+      "price": "190",
+      "img": "/img/menus/mushroom_soup.JPG"
+    },
+    {
+      "name": "Onion Soup",
+      "description": "",
+      "price": "190",
+      "img": "/img/menus/onion_soup.JPG"
+    },
+    {
+      "name": "Pumpkin Soup",
+      "description": "",
+      "price": "190",
+      "img": "/img/menus/pumpkin_soup.JPG"
+    },
+    {
+      "name": "Yellow Clam Soup",
+      "description": "",
+      "price": "190",
+      "img": "/img/menus/yellow_clam_soup.JPG"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "beer",
+  "title": "Beer",
+  "category": "drink",
+  "weight": 15,
+  "layout":"table",
+  "img":"",
+  "img_desc":"",
+  "img_layout":"",
+  "header": [],
+  "section": 6,
+  "data": [
+    ["Asahi","140"],
+    ["Singha","140"]
+  ]
+}

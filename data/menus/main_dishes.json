@@ -1,0 +1,56 @@
+{
+  "id": "main_dishes",
+  "title": "Main Dishes",
+  "category": "food",
+  "weight": 6,
+  "data": [
+    {
+      "name": "Steamed New Zealand Mussels",
+      "description": "",
+      "price": "380",
+      "img": "/img/menus/steamed_new_zealand_mussels.JPG"
+    },
+    {
+      "name": "Grilled USA Scallop",
+      "description": "",
+      "price": "480",
+      "img": "/img/menus/grilled_usa_scallop.JPG"
+    },
+    {
+      "name": "Roasted Salmon",
+      "description": "",
+      "price": "420",
+      "img": "/img/menus/roasted_salmon.JPG"
+    },
+    {
+      "name": "Slow - Cooked Snowfish",
+      "description": "",
+      "price": "650",
+      "img": "/img/menus/slow_cooked_snowfish.JPG"
+    },
+    {
+      "name": "White Snapper Butter Lemon",
+      "description": "",
+      "price": "340",
+      "img": "/img/menus/white_snapper_butter_lemon.JPG"
+    },
+    {
+      "name": "Roasted Chicken Truffle Cream",
+      "description": "",
+      "price": "340",
+      "img": "/img/menus/roasted_chicken_truffle_cream.JPG"
+    },
+    {
+      "name": "Pork Loin Steak",
+      "description": "",
+      "price": "390",
+      "img": "/img/menus/pork_loin_steak.JPG"
+    },
+    {
+      "name": "Lamb Rack",
+      "description": "",
+      "price": "670",
+      "img": "/img/menus/lamb_rack.JPG"
+    }
+  ]
+}

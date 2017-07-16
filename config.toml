@@ -1,0 +1,145 @@
+baseurl = "http://www.gismobangkok.com/"
+title = "GISMO Coffee and Roasters"
+theme = "hugo-universal-theme-modified"
+LanguageCode = "en-us"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+# Enable comments by entering your Disqus shortname
+#disqusShortname = "devcows"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 10
+
+[Languages]
+[Languages.en]
+  languageName = "English"
+[Languages.th]
+  languageName = "Thai"
+
+[menu]
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Menu"
+    url = "/menu/"
+    weight = 2
+
+[[menu.main]]
+    name = "Private Hire & Events"
+    url  = "/contact/"
+    weight = 3
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "Thiti Watanasrimongkol"
+    defaultKeywords = ["gismo", "food", "restaurant", "drink", "coffee"]
+    defaultDescription = "GISMO Coffee and Roasters"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "green"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "gismobkk@gmail.com"
+
+    #about_us = ""
+
+    copyright = "Copyright (c) 2017-, GISMO Coffee and Roasters; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    facebook = "https://www.facebook.com/gismobkk/"
+    instagram = "https://www.instagram.com/gismo_bangkok/"
+    line = "@GISMO"
+    line_link = "https://line.me/R/ti/p/@GISMO"
+    #address = """<p><strong>Universal Ltd.</strong>
+    #    <br>13/25 New Avenue
+    #    <br>Newtown upon River
+    #    <br>45Y 73J
+    #    <br>England
+    #    <br>
+    #    <strong>Great Britain</strong>
+    #  </p>
+    #  """
+    #latitude = "-12.043333"
+    #longitude = "-77.028333"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = false
+    tags = false
+    search = false
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.introduction]
+    enable = true
+
+[params.locations]
+    enable = true
+    title = "Location"
+
+[params.features]
+    enable = false
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Customer's Voices"
+    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae."
+
+[params.see_more]
+    enable = false
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = false
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Clients"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = false
+    title = "From our blog"
+    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

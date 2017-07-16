@@ -1,0 +1,56 @@
+{
+  "id": "brunch_menu",
+  "title": "BRUNCH MENU",
+  "category": "food",
+  "weight": 1,
+  "data": [
+    {
+      "name": "Tuna Avocado",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/tuna_avocado.JPG"
+    },
+    {
+      "name": "BBQ Chicken Avocado",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/bbq_chicken_avocado.JPG"
+    },
+    {
+      "name": "Roasted Pan Eggs",
+      "description": "",
+      "price": "380",
+      "img": "/img/menus/roasted_pan_eggs.JPG"
+    },
+    {
+      "name": "Smoked Salmon Benedict",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/smoked_salmon_benedict.JPG"
+    },
+    {
+      "name": "Ham Mushroom Benedict",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/ham_mushroom_benedict.JPG"
+    },
+    {
+      "name": "German Sausages & Scrambled Eggs",
+      "description": "",
+      "price": "380",
+      "img": "/img/menus/german_sausages_and_scrambled_eggs.JPG"
+    },
+    {
+      "name": "Homemade Dried Tomato & Cheese",
+      "description": "",
+      "price": "300",
+      "img": "/img/menus/homemade_dried_tomato_and_cheese.JPG"
+    },
+    {
+      "name": "Pa amb Oli",
+      "description": "",
+      "price": "320",
+      "img": "/img/menus/pa_amb_oli.JPG"
+    }
+  ]
+}

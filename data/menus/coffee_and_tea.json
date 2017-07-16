@@ -1,0 +1,28 @@
+{
+  "id": "coffee_and_tea",
+  "title": "Coffee & Tea",
+  "category": "drink",
+  "weight": 9,
+  "layout": "table",
+  "img":"/img/menus/ultimate_coffee_maker.JPG",
+  "img_desc":"Ultimate Coffee Maker",
+  "img_layout":"left",
+  "header": ["", "HOT", "ICED"],
+  "section": 4,
+  "data": [
+    ["Espresso", "110", "120"],
+    ["Americano", "110", "120"],
+    ["Caffe latte", "110", "130"],
+    ["Cappuccino", "120", "130"],
+    ["Mocha", "120", "130"],
+    ["Hot Drip", "150", "-"],
+    ["Caramel Macchiato", "140", "150"],
+    ["Macchiato", "120", "130"],
+    ["Frappuccino", "-", "150"],
+    ["Ultimate Coffee Maker", "380", "-"],
+    ["Cacaocino", "110", "120"],
+    ["Tarocino", "110", "120"],
+    ["Thai Milk Tea", "110", "120"],
+    ["Dark Chocolate Cornflake", "150", "-"]
+  ]
+}

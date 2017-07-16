@@ -1,0 +1,50 @@
+{
+  "id": "pasta",
+  "title": "Pasta",
+  "category": "food",
+  "weight": 5,
+  "data": [
+    {
+      "name": "Fettuccine Salmon Cream Gorgonzola",
+      "description": "",
+      "price": "360",
+      "img": "/img/menus/fettuccine_salmon_cream_gorgonzola.JPG"
+    },
+    {
+      "name": "Spaghetti Aglio E Olio (AOP)",
+      "description": "",
+      "price": "290",
+      "img": "/img/menus/spaghetti_aglio_e_olio.JPG"
+    },
+    {
+      "name": "Fettuccine Truffle Cream",
+      "description": "",
+      "price": "340",
+      "img": "/img/menus/fettuccine_truffle_cream.JPG"
+    },
+    {
+      "name": "Fettuccine Surat Thani Crab",
+      "description": "",
+      "price": "450",
+      "img": "/img/menus/fettuccine_surat_thani_crab.JPG"
+    },
+    {
+      "name": "Linguine Tiger Prawn",
+      "description": "",
+      "price": "450",
+      "img": "/img/menus/linguine_tiger_prawn.JPG"
+    },
+    {
+      "name": "Fettuccine Yellow Fin Tuna",
+      "description": "",
+      "price": "420",
+      "img": "/img/menus/fettuccine_yellow_fin_tuna.JPG"
+    },
+    {
+      "name": "Spaghetti Seafood",
+      "description": "",
+      "price": "450",
+      "img": "/img/menus/spaghetti_seafood.JPG"
+    }
+  ]
+}

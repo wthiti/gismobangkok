@@ -1,0 +1,38 @@
+{
+  "id": "dessert",
+  "title": "Dessert",
+  "category": "food",
+  "weight": 8,
+  "data": [
+    {
+      "name": "Banana Bread Pudding",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/banana_bread_pudding.JPG"
+    },
+    {
+      "name": "Panna Cotta Thai Tea",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/panna_cotta_thai_tea.JPG"
+    },
+    {
+      "name": "Apple Tart",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/apple_tart.JPG"
+    },
+    {
+      "name": "Mango Berries Mousse",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/mango_berries_mousse.JPG"
+    },
+    {
+      "name": "Chocolate Lava",
+      "description": "",
+      "price": "220",
+      "img": "/img/menus/chocolate_lava.JPG"
+    }
+  ]
+}

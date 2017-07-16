@@ -1,0 +1,22 @@
+{
+    "id": "soft_drinks",
+    "title": "Soft Drinks",
+    "category": "drink",
+    "weight": 13,
+    "layout": "table",
+    "img":"/img/menus/gismo_mocktail.JPG",
+    "img_desc":"Gismo Mocktail",
+    "img_layout":"left",
+    "header": [],
+    "section": 6,
+    "data": [
+      ["Coke","55"],
+      ["Coke Light","55"],
+      ["Tonic Water","55"],
+      ["Soda Water","55"],
+      ["Ginger Ale","55"],
+      ["Mineral Water","40"],
+      ["Sparkling Water","120"],
+      ["Gismo Mocktail","180"]
+    ]
+}

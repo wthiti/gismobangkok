@@ -1,0 +1,18 @@
+{
+  "id": "hot_tea_pot",
+  "title": "Hot Tea/ Pot",
+  "category": "drink",
+  "weight": 10,
+  "layout": "table",
+  "img":"/img/menus/hot_tea_pot.JPG",
+  "img_desc":"",
+  "img_layout":"left",
+  "header": [],
+  "section": 6,
+  "data": [
+    ["Rose Tea","100"],
+    ["Earl Grey Tea","100"],
+    ["Jasmine Tea","100"],
+    ["Barley Oolong Tea","100"]
+  ]
+}

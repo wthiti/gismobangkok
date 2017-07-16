@@ -1,0 +1,19 @@
+{{ if isset .Site.Params "introduction" }}
+{{ if .Site.Params.introduction.enable }}
+{{ $lang := .Site.Language.Lang }}
+{{ range $index, $element := .Site.Data.home }}
+<section class="bar background-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ index $element (printf "%s_title" $lang) }}</h2>
+                </div>
+                <div class="lead text-justify">{{ index $element (printf "%s_introduction" $lang) | safeHTML }}</div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
