@@ -3,13 +3,13 @@
 
     <div class="row">
         <div class="col-md-8">
-            <img src="{{ .Site.BaseURL}}{{ .Page.Params.img }}" class="img-responsive">
+            <img src="{{ .Page.Params.img }}" class="img-responsive">
         </div>
         <div class="col-md-4 hidden-md">&nbsp;</div>
         <div class="col-md-8">
             <section>
 
-                <div class="lead"><p>{{ .Content }}</p></div>
+                <div class="lead text-justify"><p>{{ .Content }}</p></div>
 
                 {{ if isset .Site.Params "email" }}
 
@@ -58,7 +58,6 @@
             {{ $instagram := .Site.Params.instagram }}
             {{ $line_link := .Site.Params.line_link }}
             {{ $line := .Site.Params.line }}
-            {{ $baseURL := .Site.BaseURL }}
             {{ range $index, $element := sort .Site.Data.locations "weight" }}
            <div class="col-md-4">
               <div class="heading">
