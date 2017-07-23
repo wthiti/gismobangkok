@@ -5,74 +5,74 @@
   "weight": 2,
   "data": [
     {
-      "name": "BBQ Chicken Thigh",
-      "description": "",
+      "en_name": "BBQ Chicken Thigh",
+      "th_name": "สะโพกไก่ซอสบาร์บีคิว",
       "price": "150",
       "img": "/img/menus/bbq_chicken_thigh.JPG"
     },
     {
-      "name": "Shrimp Campus",
-      "description": "",
+      "en_name": "Shrimp Campus",
+      "th_name": "กุ้งผัดสไตล์สเปน",
       "price": "290",
       "img": "/img/menus/shrimp_campus.JPG"
     },
     {
-      "name": "GISMO Rocket Salad",
-      "description": "",
+      "en_name": "GISMO Rocket Salad",
+      "th_name": "สลัดผักร็อกเก็ต",
       "price": "320",
       "img": "/img/menus/gismo_rocket_salad.JPG"
     },
     {
-      "name": "Parma Ham & Melon",
-      "description": "",
+      "en_name": "Parma Ham & Melon",
+      "th_name": "พาร์ม่าแฮมเสิร์ฟพร้อมเมล่อนญี่ปุ่น",
       "price": "450",
       "img": "/img/menus/parma_ham_and_melon.JPG"
     },
     {
-      "name": "Tuna Salad",
-      "description": "",
+      "en_name": "Tuna Salad",
+      "th_name": "สลัดทูน่า",
       "price": "260",
       "img": "/img/menus/tuna_salad.JPG"
     },
     {
-      "name": "Tuna Eggplant Salad",
-      "description": "",
+      "en_name": "Tuna Eggplant Salad",
+      "th_name": "สลัดมะเขือยาว",
       "price": "260",
       "img": "/img/menus/tuna_eggplant_salad.JPG"
     },
     {
-      "name": "Caesar Salad",
-      "description": "",
+      "en_name": "Caesar Salad",
+      "th_name": "ซีซาร์สลัด",
       "price": "300",
       "img": "/img/menus/caesar_salad.JPG"
     },
     {
-      "name": "Japanese Pumpkin Salad",
-      "description": "",
+      "en_name": "Japanese Pumpkin Salad",
+      "th_name": "สลัดฟักทองญี่ปุ่น",
       "price": "180",
       "img": "/img/menus/japanese_pumpkin_salad.JPG"
     },
     {
-      "name": "Beetroot Salad",
-      "description": "",
+      "en_name": "Beetroot Salad",
+      "th_name": "สลัดบรีทรูท",
       "price": "190",
       "img": "/img/menus/beetroot_salad.JPG"
     },
     {
-      "name": "Baby Carrot Salad",
-      "description": "",
+      "en_name": "Baby Carrot Salad",
+      "th_name": "เบบี้แครอทสลัด",
       "price": "220",
       "img": "/img/menus/baby_carrot_salad.JPG"
     },
     {
-      "name": "Tomato & Burrata Salad",
-      "description": "",
+      "en_name": "Tomato & Burrata Salad",
+      "th_name": "บูราต้าซีสเสิร์ฟพร้อมมะเขือเทศอบ",
       "price": "240",
       "img": "/img/menus/tomato_and_burrata_salad.JPG"
     },
     {
-      "name": "Cauliflower Salad",
-      "description": "",
+      "en_name": "Cauliflower Salad",
+      "th_name": "สลัดดอกกะหล่ำ",
       "price": "160",
       "img": "/img/menus/cauliflower_salad.JPG"
     }

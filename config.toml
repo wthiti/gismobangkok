@@ -1,5 +1,5 @@
 baseurl = "http://www.gismobangkok.com/"
-title = "GISMO Coffee and Roasters"
+title = "GISMO Bangkok"
 theme = "hugo-universal-theme-modified"
 LanguageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.

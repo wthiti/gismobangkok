@@ -1,6 +1,7 @@
 {{ if isset .Site.Params "locations" }}
 {{ if .Site.Params.locations.enable }}
 {{ if gt (len .Site.Data.locations) 0 }}
+{{ $lang := .Site.Language.Lang }}
 <section class="bar background-white">
     <div class="container">
         <div class="row">
@@ -21,7 +22,7 @@
               <h4>{{ $element.title }}</h4>
             </div>
             <div class="lead">
-              {{ $element.description | safeHTML }}
+              {{ index $element (printf "%s_description" $lang) | safeHTML }}
             </div>
             <div class="center-block">
                 <ul class="list-style-none">
@@ -42,7 +43,7 @@
                 height="450"
                 frameborder="0"
                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAVvNmV9Nsqg5lVPwzPMTkJBYnZLllu_do
-                  &q=GISMO+Coffee+and+Roaster+Bangkok+Thailand" allowfullscreen>
+                  &q=GISMO+Bangkok+Thailand" allowfullscreen>
               </iframe>
             </div>
         </div>

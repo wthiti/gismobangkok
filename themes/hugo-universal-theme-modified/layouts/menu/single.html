@@ -18,6 +18,7 @@
                     <div class="col-md-12">
                       <div>
                         {{ $category := .Params.category }}
+                        {{ $lang := .Site.Language.Lang }}
                         {{ range sort .Site.Data.menus "weight" }}
                           {{ if eq .category $category }}
                               <div class="col-xs-12 col-md-12 text-center heading">
@@ -25,9 +26,10 @@
                               </div>
                             {{ if not (eq .layout "table") }}
                               {{ range .data }}
+                                {{ $name := index . (printf "%s_name" $lang) }}
                                 <div class="col-xs-6 col-md-3 text-center">
-                                  <figure class="label inside bottom fade" data-label="{{ .name }} ({{ .price }}.-)">
-                                      <img alt="{{ .name }}" src="{{ .img }}" class="img-responsive">
+                                  <figure class="label inside bottom fade" data-label="{{ $name }} ({{ .price }}.-)">
+                                      <img alt="{{ $name }}" src="{{ .img }}" class="img-responsive">
                                   </figure>
                                 </div>
                               {{ end }}

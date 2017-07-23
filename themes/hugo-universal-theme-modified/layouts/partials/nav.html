@@ -26,14 +26,21 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
+                  <li class="dropdown">
+                  {{ if eq .Site.Language.Lang "en" }}
+                    <a href="/th">ภาษาไทย</a>
+                  {{ else }}
+                    <a href="/en">English</a>
+                  {{ end }}
+                  </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->

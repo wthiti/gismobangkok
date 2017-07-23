@@ -5,50 +5,50 @@
   "weight": 6,
   "data": [
     {
-      "name": "Steamed New Zealand Mussels",
-      "description": "",
+      "en_name": "Steamed New Zealand Mussels",
+      "th_name": "หอยแมลงภู่นิวซีแลนด์ปรุงรสสไตล์เปรู",
       "price": "380",
       "img": "/img/menus/steamed_new_zealand_mussels.JPG"
     },
     {
-      "name": "Grilled USA Scallop",
-      "description": "",
+      "en_name": "Grilled USA Scallop",
+      "th_name": "หอยเซลล์เสิร์ฟพร้อมข้าวบาร์เล่",
       "price": "480",
       "img": "/img/menus/grilled_usa_scallop.JPG"
     },
     {
-      "name": "Roasted Salmon",
-      "description": "",
+      "en_name": "Roasted Salmon",
+      "th_name": "แซลมอนนอร์เวล์",
       "price": "420",
       "img": "/img/menus/roasted_salmon.JPG"
     },
     {
-      "name": "Slow - Cooked Snowfish",
-      "description": "",
+      "en_name": "Slow - Cooked Snowfish",
+      "th_name": "ปลาหิมะหมักซอสมิโซะ",
       "price": "650",
       "img": "/img/menus/slow_cooked_snowfish.JPG"
     },
     {
-      "name": "White Snapper Butter Lemon",
-      "description": "",
+      "en_name": "White Snapper Butter Lemon",
+      "th_name": "ปลากระพงซอสบัตเตอร์เลมอน",
       "price": "340",
       "img": "/img/menus/white_snapper_butter_lemon.JPG"
     },
     {
-      "name": "Roasted Chicken Truffle Cream",
-      "description": "",
+      "en_name": "Roasted Chicken Truffle Cream",
+      "th_name": "อกไก่ชูวีซอสครีมทรัฟเฟิล",
       "price": "340",
       "img": "/img/menus/roasted_chicken_truffle_cream.JPG"
     },
     {
-      "name": "Pork Loin Steak",
-      "description": "",
+      "en_name": "Pork Loin Steak",
+      "th_name": "สเต็กหมูสันใน",
       "price": "390",
       "img": "/img/menus/pork_loin_steak.JPG"
     },
     {
-      "name": "Lamb Rack",
-      "description": "",
+      "en_name": "Lamb Rack",
+      "th_name": "ซี่โครงแกะเสิร์ฟพร้อมสตูว์ผัก",
       "price": "670",
       "img": "/img/menus/lamb_rack.JPG"
     }

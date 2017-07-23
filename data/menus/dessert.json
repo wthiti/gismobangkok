@@ -5,32 +5,32 @@
   "weight": 8,
   "data": [
     {
-      "name": "Banana Bread Pudding",
-      "description": "",
+      "en_name": "Banana Bread Pudding",
+      "th_name": "พุดดิ้งกล้วย",
       "price": "220",
       "img": "/img/menus/banana_bread_pudding.JPG"
     },
     {
-      "name": "Panna Cotta Thai Tea",
-      "description": "",
+      "en_name": "Panna Cotta Thai Tea",
+      "th_name": "พานาคอดต้า",
       "price": "220",
       "img": "/img/menus/panna_cotta_thai_tea.JPG"
     },
     {
-      "name": "Apple Tart",
-      "description": "",
+      "en_name": "Apple Tart",
+      "th_name": "แอปเปิ้ลเสิร์ฟพร้อมแป้งทาร์ด",
       "price": "220",
       "img": "/img/menus/apple_tart.JPG"
     },
     {
-      "name": "Mango Berries Mousse",
-      "description": "",
+      "en_name": "Mango Berries Mousse",
+      "th_name": "ไอศครีมมะม่วงเสิร์ฟพร้อมมาสคาร์โปเน่",
       "price": "220",
       "img": "/img/menus/mango_berries_mousse.JPG"
     },
     {
-      "name": "Chocolate Lava",
-      "description": "",
+      "en_name": "Chocolate Lava",
+      "th_name": "ซ็อคโกแลตลาวา",
       "price": "220",
       "img": "/img/menus/chocolate_lava.JPG"
     }

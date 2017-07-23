@@ -5,32 +5,32 @@
   "weight": 7,
   "data": [
     {
-      "name": "USA Prime Ribeye (250g.)",
-      "description": "",
+      "en_name": "USA Prime Ribeye (250g.)",
+      "th_name": "เนื้อริปอาย",
       "price": "1,900",
       "img": "/img/menus/usa_prime_ribeye.JPG"
     },
     {
-      "name": "Wagyu Sirloin",
-      "description": "",
+      "en_name": "Wagyu Sirloin",
+      "th_name": "เนื้อวากิว",
       "price": "1,600",
       "img": "/img/menus/wagyu_sirloin.JPG"
     },
     {
-      "name": "Free - Range Baby Chicken",
-      "description": "",
+      "en_name": "Free - Range Baby Chicken",
+      "th_name": "ไก่ทั้งตัวกับเบียร์ซอส และน้ำจิ้มแจ่ว",
       "price": "540",
       "img": "/img/menus/free_range_baby_chicken.JPG"
     },
     {
-      "name": "Smoked Pork Knuckle",
-      "description": "",
+      "en_name": "Smoked Pork Knuckle",
+      "th_name": "ขาหมูเยอรมัน",
       "price": "590",
       "img": "/img/menus/smoked_pork_knuckle.JPG"
     },
     {
-      "name": "BBQ Cheese Pork Ribs",
-      "description": "",
+      "en_name": "BBQ Cheese Pork Ribs",
+      "th_name": "ซี่โครงหมูหมักซอสบาร์บีคิวอบด้วยซีส",
       "price": "590",
       "img": "/img/menus/bbq_cheese_pork_ribs.JPG"
     }

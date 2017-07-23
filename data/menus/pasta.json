@@ -5,44 +5,44 @@
   "weight": 5,
   "data": [
     {
-      "name": "Fettuccine Salmon Cream Gorgonzola",
-      "description": "",
+      "en_name": "Fettuccine Salmon Cream Gorgonzola",
+      "th_name": "แซลมอนเสิร์ฟพร้อมเส้นเฟตตูชินี่กับซอสกอร์กอนโซล่าซีส",
       "price": "360",
       "img": "/img/menus/fettuccine_salmon_cream_gorgonzola.JPG"
     },
     {
-      "name": "Spaghetti Aglio E Olio (AOP)",
-      "description": "",
+      "en_name": "Spaghetti Aglio E Olio (AOP)",
+      "th_name": "ไส้กรอกสเปนเสิร์ฟพร้อมเส้นสปาเก็ตตี้ผัดกระเทียมพริก",
       "price": "290",
       "img": "/img/menus/spaghetti_aglio_e_olio.JPG"
     },
     {
-      "name": "Fettuccine Truffle Cream",
-      "description": "",
+      "en_name": "Fettuccine Truffle Cream",
+      "th_name": "เส้นเฟสตูชินี่กับซอสครีมทรัฟเฟิล",
       "price": "340",
       "img": "/img/menus/fettuccine_truffle_cream.JPG"
     },
     {
-      "name": "Fettuccine Surat Thani Crab",
-      "description": "",
+      "en_name": "Fettuccine Surat Thani Crab",
+      "th_name": "เนื้อปูจากสุราษฎร์ธานีเสิร์ฟพร้อมเส้นเฟตตูชินี่",
       "price": "450",
       "img": "/img/menus/fettuccine_surat_thani_crab.JPG"
     },
     {
-      "name": "Linguine Tiger Prawn",
-      "description": "",
+      "en_name": "Linguine Tiger Prawn",
+      "th_name": "กุ้งลายเสือเสิร์ฟพร้อมเส้นลิงกิวนี่",
       "price": "450",
       "img": "/img/menus/linguine_tiger_prawn.JPG"
     },
     {
-      "name": "Fettuccine Yellow Fin Tuna",
-      "description": "",
+      "en_name": "Fettuccine Yellow Fin Tuna",
+      "th_name": "ปลาทูน่าย่างเกลือเสิร์ฟพร้อมเส้นเฟตตูชินี่",
       "price": "420",
       "img": "/img/menus/fettuccine_yellow_fin_tuna.JPG"
     },
     {
-      "name": "Spaghetti Seafood",
-      "description": "",
+      "en_name": "Spaghetti Seafood",
+      "th_name": "เส้นสปาเก็ตตี้เสิร์ฟพร้อมซีฟู้ด",
       "price": "450",
       "img": "/img/menus/spaghetti_seafood.JPG"
     }

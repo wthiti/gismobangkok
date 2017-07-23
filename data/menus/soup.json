@@ -5,26 +5,26 @@
   "weight": 3,
   "data": [
     {
-      "name": "Mushroom Soup",
-      "description": "",
+      "en_name": "Mushroom Soup",
+      "th_name": "ซุปเห็ด",
       "price": "190",
       "img": "/img/menus/mushroom_soup.JPG"
     },
     {
-      "name": "Onion Soup",
-      "description": "",
+      "en_name": "Onion Soup",
+      "th_name": "ซุปหัวหอม",
       "price": "190",
       "img": "/img/menus/onion_soup.JPG"
     },
     {
-      "name": "Pumpkin Soup",
-      "description": "",
+      "en_name": "Pumpkin Soup",
+      "th_name": "ซุปฟักทอง",
       "price": "190",
       "img": "/img/menus/pumpkin_soup.JPG"
     },
     {
-      "name": "Yellow Clam Soup",
-      "description": "",
+      "en_name": "Yellow Clam Soup",
+      "th_name": "ซุปหอยลาย",
       "price": "190",
       "img": "/img/menus/yellow_clam_soup.JPG"
     }

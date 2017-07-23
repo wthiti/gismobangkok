@@ -1,54 +1,54 @@
 {
   "id": "brunch_menu",
-  "title": "BRUNCH MENU",
+  "title": "ALL DAY BRUNCH",
   "category": "food",
   "weight": 1,
   "data": [
     {
-      "name": "Tuna Avocado",
-      "description": "",
+      "en_name": "Tuna Avocado",
+      "th_name": "ทูน่ารสเผ็ดเสิร์ฟพร้อมกับอะโวคาโดบด",
       "price": "320",
       "img": "/img/menus/tuna_avocado.JPG"
     },
     {
-      "name": "BBQ Chicken Avocado",
-      "description": "",
+      "en_name": "BBQ Chicken Avocado",
+      "th_name": "สะโพกไก่ปรุงรสด้วยซอสบาร์บีคิว",
       "price": "320",
       "img": "/img/menus/bbq_chicken_avocado.JPG"
     },
     {
-      "name": "Roasted Pan Eggs",
-      "description": "",
+      "en_name": "Roasted Pan Eggs",
+      "th_name": "ไข่กระทะ",
       "price": "380",
       "img": "/img/menus/roasted_pan_eggs.JPG"
     },
     {
-      "name": "Smoked Salmon Benedict",
-      "description": "",
+      "en_name": "Smoked Salmon Benedict",
+      "th_name": "ปลาแซลมอนรมควัน",
       "price": "320",
       "img": "/img/menus/smoked_salmon_benedict.JPG"
     },
     {
-      "name": "Ham Mushroom Benedict",
-      "description": "",
+      "en_name": "Ham Mushroom Benedict",
+      "th_name": "แฮมเห็ดแชมปิญอง",
       "price": "320",
       "img": "/img/menus/ham_mushroom_benedict.JPG"
     },
     {
-      "name": "German Sausages & Scrambled Eggs",
-      "description": "",
+      "en_name": "German Sausages & Scrambled Eggs",
+      "th_name": "ไข่คนใส่ซีสกับไส้กรอกเยอรมัน",
       "price": "380",
       "img": "/img/menus/german_sausages_and_scrambled_eggs.JPG"
     },
     {
-      "name": "Homemade Dried Tomato & Cheese",
-      "description": "",
+      "en_name": "Homemade Dried Tomato & Cheese",
+      "th_name": "มะเขือเทศอบเสิร์ฟพร้อมกับซีส และสมุนไพร",
       "price": "300",
       "img": "/img/menus/homemade_dried_tomato_and_cheese.JPG"
     },
     {
-      "name": "Pa amb Oli",
-      "description": "",
+      "en_name": "Pa amb Oli",
+      "th_name": "พาร์มาแฮม",
       "price": "320",
       "img": "/img/menus/pa_amb_oli.JPG"
     }

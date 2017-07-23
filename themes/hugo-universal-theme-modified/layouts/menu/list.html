@@ -11,13 +11,13 @@
             <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                      <div class="lead"><p>{{ .Content }}</p></div>
+                      <div class="lead text-justify"><p>{{ .Content }}</p></div>
                   </div>
                   <div class="col-xs-6 col-md-6 text-center">
                     <div class="image-link-container">
                         <img src="/img/food.JPG" alt="" class="image-link">
                         <div class="middle">
-                            <a href="food" class="text">Food</a>
+                            <a href="food" class="text">{{ .Params.food }}</a>
                         </div>
                     </div>
                   </div>
@@ -25,7 +25,7 @@
                     <div class="image-link-container">
                         <img src="/img/drink.JPG" alt="" class="image-link">
                         <div class="middle">
-                            <a href="drink" class="text">Drink</a>
+                            <a href="drink" class="text">{{ .Params.drink }}</a>
                         </div>
                     </div>
                   </div>
