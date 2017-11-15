@@ -1,0 +1,43 @@
+---
+hide_body: false
+fields:
+- name: category
+  label: Category
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: vat
+  label: Vat
+  type: text
+  hidden: false
+  default: ''
+- name: service_change
+  label: Service change
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: food
+  label: Food
+  type: text
+  hidden: false
+  default: ''
+- name: drink
+  label: Drink
+  type: text
+  hidden: false
+  default: ''
